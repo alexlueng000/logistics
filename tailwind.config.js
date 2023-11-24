@@ -18,7 +18,10 @@ module.exports = {
             animation: {
                 ripple: "rippleAni 3s linear infinite",
                 ripple2: "ripple2Ani 4s linear infinite"
-            }
+            },
+            fontFamily: {
+                'mulish': ['Mulish', 'sans-serif'],
+            },
         }
     },
     plugins: [require("@tailwindcss/forms"), require("tailwind-scrollbar")]
